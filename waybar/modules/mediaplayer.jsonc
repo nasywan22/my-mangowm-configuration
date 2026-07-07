@@ -1,0 +1,6 @@
+{
+    "group/mediaplayer": {
+        "orientation": "horizontal",
+        "modules": ["custom/musicIcon", "mpris"]
+    }
+}

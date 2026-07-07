@@ -1,0 +1,8 @@
+{
+    "custom/musicIcon": {
+        "exec": "echo ''",       // Ganti dengan ikon atau teks statis Anda
+        "exec-once": true,        // Kunci utama: hanya dijalankan sekali!
+        "format": "{}",           // {} akan diganti dengan output echo
+        "tooltip": false          // Matikan tooltip agar lebih bersih
+    }
+}

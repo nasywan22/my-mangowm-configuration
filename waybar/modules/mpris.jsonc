@@ -1,0 +1,7 @@
+{
+    "mpris": {
+        "format": "{title} - {artist}",
+        "title-len": 10,
+        "artist-len": 15,
+    }
+}

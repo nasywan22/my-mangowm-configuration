@@ -1,0 +1,29 @@
+{
+    // BAR CONFIGURATIONS
+    "output": "eDP-1",
+    "position": "top",
+    "layer": "top",
+    "expand-center": true,
+    "height": 44,
+    "spacing": 24,
+
+    "include": [
+        "/home/gallahard/.config/waybar/modules/clock.jsonc",
+        "/home/gallahard/.config/waybar/modules/window.jsonc",
+        "/home/gallahard/.config/waybar/modules/mpris.jsonc",
+        "/home/gallahard/.config/waybar/modules/workspaces.jsonc",
+        "/home/gallahard/.config/waybar/modules/tray.jsonc",
+        "/home/gallahard/.config/waybar/modules/mediaplayer.jsonc",
+        "/home/gallahard/.config/waybar/modules/musicIcon.jsonc",
+        "/home/gallahard/.config/waybar/modules/wireplumber.jsonc",
+        "/home/gallahard/.config/waybar/modules/backlight.jsonc",
+        "/home/gallahard/.config/waybar/modules/layouts.jsonc"
+    ],
+    
+    // MODULES LAYOUT
+    "modules-left": ["clock", "dwl/window", "group/mediaplayer"],
+
+    "modules-center": ["ext/workspaces"],
+
+    "modules-right": ["tray", "custom/clipboard", "wireplumber#output", "backlight", "bluetooth", "network", "custom/nc", "custom/sessionmenu", "custom/layout"]
+}

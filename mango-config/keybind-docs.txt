@@ -1,0 +1,95 @@
+==================== DOKUMENTASI KEYBIND ====================
+
+🧩 UMUM & MENU
+  SUPER + /            Cari pintasan (rofi, baca konfigurasi)
+  SUPER + R            Muat ulang konfigurasi
+  SUPER + Space        Buka menu aplikasi (rofi)
+  SUPER + T            Buka terminal (kitty)
+
+❌ KELUAR / MENUTUP
+  SUPER + ALT + Del    Keluar dari window manager
+  SUPER + Q            Tutup jendela aktif
+
+🎯 NAVIGASI FOKUS JENDELA
+  ALT + Tab            Fokus jendela berikutnya
+  SUPER + ←            Fokus ke kiri
+  SUPER + →            Fokus ke kanan
+  SUPER + ↑            Fokus ke atas
+  SUPER + ↓            Fokus ke bawah
+
+🔄 TUKAR POSISI JENDELA
+  SUPER + SHIFT + ↑    Tukar dengan jendela di atas
+  SUPER + SHIFT + ↓    Tukar dengan jendela di bawah
+  SUPER + SHIFT + ←    Tukar dengan jendela di kiri
+  SUPER + SHIFT + →    Tukar dengan jendela di kanan
+
+🪟 STATUS & TAMPILAN JENDELA
+  SUPER + G            Toggle mode global
+  SUPER + Tab          Toggle tampilan overview
+  ALT + F              Toggle floating (mengambang)
+  SUPER + M            Toggle maksimalkan layar
+  SUPER + F            Toggle fullscreen
+  SUPER + SHIFT + F    Toggle fake fullscreen
+  SUPER + SHIFT + M    Minimalkan jendela
+  SUPER + O            Toggle overlay
+  SUPER + ALT + I      Pulihkan jendela yang diminimalkan
+  SUPER + S            Toggle scratchpad
+
+📐 TATA LETAK SCROLLER
+  ALT + E              Atur proporsi ke 1.0
+  ALT + X              Ganti preset proporsi
+  ALT+SUPER+CTRL + ←   Geser tumpukan ke kiri
+  ALT+SUPER+CTRL + →   Geser tumpukan ke kanan
+  ALT+SUPER+CTRL + ↑   Geser tumpukan ke atas
+  ALT+SUPER+CTRL + ↓   Geser tumpukan ke bawah
+
+🌿 TATA LETAK DWINDLE (SPLIT MANUAL)
+  ALT + SHIFT + Enter  Toggle arah pembelahan
+
+🔀 BERGANTI TATA LETAK
+  SUPER + N            Berganti tata letak berikutnya
+
+🏷️ MANAJEMEN TAG (WORKSPACE)
+  ALT + ←              Lihat tag di kiri
+  CTRL + ←             Lihat tag kiri (yang ada jendela)
+  ALT + →              Lihat tag di kanan
+  CTRL + →             Lihat tag kanan (yang ada jendela)
+  CTRL+SUPER + ←       Pindahkan jendela ke tag kiri
+  CTRL+SUPER + →       Pindahkan jendela ke tag kanan
+
+  CTRL + 1..9          Langsung ke tag 1 – 9
+  ALT + 1..9           Pindahkan jendela & fokus ke tag 1 – 9
+
+🖥️ MONITOR
+  ALT + SHIFT + ←      Fokus ke monitor kiri
+  ALT + SHIFT + →      Fokus ke monitor kanan
+  SUPER + ALT + ←      Pindahkan jendela ke monitor kiri
+  SUPER + ALT + →      Pindahkan jendela ke monitor kanan
+
+🔲 CELAH (GAPS)
+  ALT + SHIFT + X      Tambah celah (+1)
+  ALT + SHIFT + Z      Kurangi celah (-1)
+  ALT + SHIFT + R      Toggle celah (on/off)
+
+📏 PINDAHKAN JENDELA (PRESISI)
+  CTRL + SHIFT + ↑     Geser 50px ke atas
+  CTRL + SHIFT + ↓     Geser 50px ke bawah
+  CTRL + SHIFT + ←     Geser 50px ke kiri
+  CTRL + SHIFT + →     Geser 50px ke kanan
+
+📏 UBAH UKURAN JENDELA (PRESISI)
+  CTRL + ALT + ↑       Kurangi tinggi 50px
+  CTRL + ALT + ↓       Tambah tinggi 50px
+  CTRL + ALT + ←       Kurangi lebar 50px
+  CTRL + ALT + →       Tambah lebar 50px
+
+🖱️ MOUSE & SCROLL
+  SUPER + Klik Kiri    Pindahkan jendela (drag)
+  SUPER + Klik Kanan   Ubah ukuran jendela (resize)
+  Klik Tengah          Toggle maksimalkan layar
+  SUPER + Scroll Up    Lihat tag kiri (yang ada jendela)
+  SUPER + Scroll Down  Lihat tag kanan (yang ada jendela)
+
+🎨 ANIMASI LAYER (ROFI)
+  Buka rofi            Animasi zoom-in
+  Tutup rofi           Animasi zoom-out

@@ -1,0 +1,9 @@
+{
+    "dwl/window": {
+        "format": "{title}",
+        "icon": true,
+        "justify": "center",
+        "icon-size": 20,
+        "max-length": 10
+    }
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: 'Noto Sans', "FiraCode Nerd Font Mono", sans-serif;
+    font-size: 14px;
+}
+
+window#waybar > box {
+    padding: 0 24px;
+}
+
+#custom-musicIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#custom-layout {
+    font-weight: bold;
+}
+
+#workspaces button {
+    color: #A3A3A3;
+}
+
+#workspaces button.active {
+    color: #FFFFDD;
+}
+
+#wireplumber {
+    font-size: 24px;
+}
+
+#backlight {
+    font-size: 24px;
+}

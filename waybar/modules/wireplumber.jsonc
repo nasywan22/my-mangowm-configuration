@@ -1,0 +1,10 @@
+{
+    "wireplumber#output": {
+        "format": "{icon}",
+        "format-muted": "󰝟",
+        "format-icons": ["", ""],
+        "on-click-right": "pavucontrol",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "scroll-step": 5
+    }
+}
