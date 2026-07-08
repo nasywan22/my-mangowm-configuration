@@ -1,95 +1,96 @@
-==================== DOKUMENTASI KEYBIND ====================
+🎯 GENERAL & UTILITIES
+  SUPER + Code:61      Search shortcuts (rofi, reads config)
+  SUPER + Ctrl + R     Reload Waybar
+  SUPER + R            Reload MangoWM configuration
+  SUPER + Space        Open application launcher (rofi)
+  SUPER + T            Launch terminal (kitty)
 
-🧩 UMUM & MENU
-  SUPER + /            Cari pintasan (rofi, baca konfigurasi)
-  SUPER + R            Muat ulang konfigurasi
-  SUPER + Space        Buka menu aplikasi (rofi)
-  SUPER + T            Buka terminal (kitty)
+❌ EXIT / CLOSE
+  SUPER + Alt + Delete Quit MangoWM
+  SUPER + Q            Kill focused client
 
-❌ KELUAR / MENUTUP
-  SUPER + ALT + Del    Keluar dari window manager
-  SUPER + Q            Tutup jendela aktif
+🎯 WINDOW FOCUS
+  Alt + Tab            Focus next window in stack
+  SUPER + Left         Focus window to the left
+  SUPER + Right        Focus window to the right
+  SUPER + Up           Focus window above
+  SUPER + Down         Focus window below
 
-🎯 NAVIGASI FOKUS JENDELA
-  ALT + Tab            Fokus jendela berikutnya
-  SUPER + ←            Fokus ke kiri
-  SUPER + →            Fokus ke kanan
-  SUPER + ↑            Fokus ke atas
-  SUPER + ↓            Fokus ke bawah
+🔄 WINDOW SWAPPING
+  SUPER + Shift + Left  Swap with window on the left
+  SUPER + Shift + Right Swap with window on the right
+  SUPER + Shift + Up    Swap with window above
+  SUPER + Shift + Down  Swap with window below
 
-🔄 TUKAR POSISI JENDELA
-  SUPER + SHIFT + ↑    Tukar dengan jendela di atas
-  SUPER + SHIFT + ↓    Tukar dengan jendela di bawah
-  SUPER + SHIFT + ←    Tukar dengan jendela di kiri
-  SUPER + SHIFT + →    Tukar dengan jendela di kanan
-
-🪟 STATUS & TAMPILAN JENDELA
-  SUPER + G            Toggle mode global
-  SUPER + Tab          Toggle tampilan overview
-  ALT + F              Toggle floating (mengambang)
-  SUPER + M            Toggle maksimalkan layar
+📏 WINDOW STATES
+  SUPER + G            Toggle global mode
+  SUPER + Tab          Toggle overview mode
+  Alt + F              Toggle floating mode
+  SUPER + M            Toggle maximize screen
   SUPER + F            Toggle fullscreen
-  SUPER + SHIFT + F    Toggle fake fullscreen
-  SUPER + SHIFT + M    Minimalkan jendela
-  SUPER + O            Toggle overlay
-  SUPER + ALT + I      Pulihkan jendela yang diminimalkan
+  SUPER + Shift + F    Toggle fake fullscreen
+  SUPER + Shift + M    Minimize window
+  SUPER + Alt + I      Restore minimized windows
+  SUPER + O            Toggle overlay mode
   SUPER + S            Toggle scratchpad
 
-📐 TATA LETAK SCROLLER
-  ALT + E              Atur proporsi ke 1.0
-  ALT + X              Ganti preset proporsi
-  ALT+SUPER+CTRL + ←   Geser tumpukan ke kiri
-  ALT+SUPER+CTRL + →   Geser tumpukan ke kanan
-  ALT+SUPER+CTRL + ↑   Geser tumpukan ke atas
-  ALT+SUPER+CTRL + ↓   Geser tumpukan ke bawah
+↕️ MOVE FLOATING WINDOW
+  Ctrl + Shift + Left  Move floating window -50px left
+  Ctrl + Shift + Right Move floating window +50px right
+  Ctrl + Shift + Up    Move floating window -50px up
+  Ctrl + Shift + Down  Move floating window +50px down
 
-🌿 TATA LETAK DWINDLE (SPLIT MANUAL)
-  ALT + SHIFT + Enter  Toggle arah pembelahan
+📐 RESIZE FLOATING WINDOW
+  Ctrl + Alt + Left    Decrease width by 50px
+  Ctrl + Alt + Right   Increase width by 50px
+  Ctrl + Alt + Up      Decrease height by 50px
+  Ctrl + Alt + Down    Increase height by 50px
 
-🔀 BERGANTI TATA LETAK
-  SUPER + N            Berganti tata letak berikutnya
+📐 LAYOUT MANAGEMENT
+  Alt + E              Set scroller proportion to 1.0
+  Alt + X              Switch proportion preset
+  Alt + SUPER + Ctrl + Left   Stack scroller left
+  Alt + SUPER + Ctrl + Right  Stack scroller right
+  Alt + SUPER + Ctrl + Up     Stack scroller up
+  Alt + SUPER + Ctrl + Down   Stack scroller down
+  Alt + Shift + Enter  Toggle split direction (dwindle layout)
+  SUPER + N            Switch layout & refresh Waybar
 
-🏷️ MANAJEMEN TAG (WORKSPACE)
-  ALT + ←              Lihat tag di kiri
-  CTRL + ←             Lihat tag kiri (yang ada jendela)
-  ALT + →              Lihat tag di kanan
-  CTRL + →             Lihat tag kanan (yang ada jendela)
-  CTRL+SUPER + ←       Pindahkan jendela ke tag kiri
-  CTRL+SUPER + →       Pindahkan jendela ke tag kanan
+🏷️ WORKSPACE (TAG) SWITCHING
+  Ctrl + 1 through 9   Switch to tag 1 through 9
 
-  CTRL + 1..9          Langsung ke tag 1 – 9
-  ALT + 1..9           Pindahkan jendela & fokus ke tag 1 – 9
+📦 MOVE WINDOW TO TAG
+  Alt + 1 through 9    Move client to tag 1-9 and switch to it
 
-🖥️ MONITOR
-  ALT + SHIFT + ←      Fokus ke monitor kiri
-  ALT + SHIFT + →      Fokus ke monitor kanan
-  SUPER + ALT + ←      Pindahkan jendela ke monitor kiri
-  SUPER + ALT + →      Pindahkan jendela ke monitor kanan
+⬅️➡️ TAG NAVIGATION
+  Alt + Left           View previous tag
+  Ctrl + Left          View previous tag (with client)
+  Alt + Right          View next tag
+  Ctrl + Right         View next tag (with client)
 
-🔲 CELAH (GAPS)
-  ALT + SHIFT + X      Tambah celah (+1)
-  ALT + SHIFT + Z      Kurangi celah (-1)
-  ALT + SHIFT + R      Toggle celah (on/off)
+🔄 MOVE TAG BETWEEN MONITORS
+  Ctrl + SUPER + Left  Move tag to left monitor
+  Ctrl + SUPER + Right Move tag to right monitor
 
-📏 PINDAHKAN JENDELA (PRESISI)
-  CTRL + SHIFT + ↑     Geser 50px ke atas
-  CTRL + SHIFT + ↓     Geser 50px ke bawah
-  CTRL + SHIFT + ←     Geser 50px ke kiri
-  CTRL + SHIFT + →     Geser 50px ke kanan
+🖥️ MULTI-MONITOR
+  Alt + Shift + Left   Focus left monitor
+  Alt + Shift + Right  Focus right monitor
+  SUPER + Alt + Left   Send tag to left monitor
+  SUPER + Alt + Right  Send tag to right monitor
 
-📏 UBAH UKURAN JENDELA (PRESISI)
-  CTRL + ALT + ↑       Kurangi tinggi 50px
-  CTRL + ALT + ↓       Tambah tinggi 50px
-  CTRL + ALT + ←       Kurangi lebar 50px
-  CTRL + ALT + →       Tambah lebar 50px
+📏 GAPS
+  Alt + Shift + X      Increase gaps by 1px
+  Alt + Shift + Z      Decrease gaps by 1px
+  Alt + Shift + R      Toggle gaps
 
-🖱️ MOUSE & SCROLL
-  SUPER + Klik Kiri    Pindahkan jendela (drag)
-  SUPER + Klik Kanan   Ubah ukuran jendela (resize)
-  Klik Tengah          Toggle maksimalkan layar
-  SUPER + Scroll Up    Lihat tag kiri (yang ada jendela)
-  SUPER + Scroll Down  Lihat tag kanan (yang ada jendela)
+🖱️ MOUSE BINDINGS
+  SUPER + Left Click   Move window
+  Any + Middle Click   Toggle maximize screen
+  SUPER + Right Click  Resize window
 
-🎨 ANIMASI LAYER (ROFI)
-  Buka rofi            Animasi zoom-in
-  Tutup rofi           Animasi zoom-out
+📜 SCROLL (AXIS) BINDINGS
+  SUPER + Scroll Up    View previous tag (with client)
+  SUPER + Scroll Down  View next tag (with client)
+
+🎬 ANIMATIONS
+  Rofi                 Zoom animation on open/close
