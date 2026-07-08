@@ -1,96 +1,101 @@
 🎯 GENERAL & UTILITIES
-  SUPER + Code:61      Search shortcuts (rofi, reads config)
-  SUPER + Ctrl + R     Reload Waybar
-  SUPER + R            Reload MangoWM configuration
-  SUPER + Space        Open application launcher (rofi)
-  SUPER + T            Launch terminal (kitty)
+  SUPER + Code:61        Search shortcuts (rofi fuzzy search)
+  SUPER + Ctrl + R       Reload Waybar
+  SUPER + R              Reload MangoWM configuration
+  SUPER + Space          Open application launcher (rofi)
+  SUPER + T              Launch terminal (kitty)
 
 ❌ EXIT / CLOSE
-  SUPER + Alt + Delete Quit MangoWM
-  SUPER + Q            Kill focused client
+  SUPER + Alt + Delete   Quit MangoWM
+  SUPER + Q              Kill focused client
 
 🎯 WINDOW FOCUS
-  Alt + Tab            Focus next window in stack
-  SUPER + Left         Focus window to the left
-  SUPER + Right        Focus window to the right
-  SUPER + Up           Focus window above
-  SUPER + Down         Focus window below
+  SUPER + Left           Focus window to the left
+  SUPER + Right          Focus window to the right
+  SUPER + Up             Focus window above
+  SUPER + Down           Focus window below
 
 🔄 WINDOW SWAPPING
-  SUPER + Shift + Left  Swap with window on the left
-  SUPER + Shift + Right Swap with window on the right
-  SUPER + Shift + Up    Swap with window above
-  SUPER + Shift + Down  Swap with window below
+  SUPER + Shift + Left   Swap with window on the left
+  SUPER + Shift + Right  Swap with window on the right
+  SUPER + Shift + Up     Swap with window above
+  SUPER + Shift + Down   Swap with window below
 
 📏 WINDOW STATES
-  SUPER + G            Toggle global mode
-  SUPER + Tab          Toggle overview mode
-  Alt + F              Toggle floating mode
-  SUPER + M            Toggle maximize screen
-  SUPER + F            Toggle fullscreen
-  SUPER + Shift + F    Toggle fake fullscreen
-  SUPER + Shift + M    Minimize window
-  SUPER + Alt + I      Restore minimized windows
-  SUPER + O            Toggle overlay mode
-  SUPER + S            Toggle scratchpad
-
-↕️ MOVE FLOATING WINDOW
-  Ctrl + Shift + Left  Move floating window -50px left
-  Ctrl + Shift + Right Move floating window +50px right
-  Ctrl + Shift + Up    Move floating window -50px up
-  Ctrl + Shift + Down  Move floating window +50px down
-
-📐 RESIZE FLOATING WINDOW
-  Ctrl + Alt + Left    Decrease width by 50px
-  Ctrl + Alt + Right   Increase width by 50px
-  Ctrl + Alt + Up      Decrease height by 50px
-  Ctrl + Alt + Down    Increase height by 50px
+  SUPER + G              Toggle global mode
+  SUPER + Tab            Toggle overview mode
+  SUPER + Alt + F        Toggle floating mode
+  SUPER + M              Toggle maximize screen
+  SUPER + F              Toggle fullscreen
+  SUPER + Shift + F      Toggle fake fullscreen
+  SUPER + Shift + M      Minimize window
+  SUPER + Alt + I        Restore minimized windows
+  SUPER + O              Toggle overlay mode
+  SUPER + S              Toggle scratchpad
 
 📐 LAYOUT MANAGEMENT
-  Alt + E              Set scroller proportion to 1.0
-  Alt + X              Switch proportion preset
-  Alt + SUPER + Ctrl + Left   Stack scroller left
-  Alt + SUPER + Ctrl + Right  Stack scroller right
-  Alt + SUPER + Ctrl + Up     Stack scroller up
-  Alt + SUPER + Ctrl + Down   Stack scroller down
-  Alt + Shift + Enter  Toggle split direction (dwindle layout)
-  SUPER + N            Switch layout & refresh Waybar
+  SUPER + D              Toggle split direction (dwindle layout)
+  SUPER + N              Switch layout & refresh Waybar
+  SUPER + Ctrl + Alt + Left   Stack scroller left
+  SUPER + Ctrl + Alt + Right  Stack scroller right
+  SUPER + Ctrl + Alt + Up     Stack scroller up
+  SUPER + Ctrl + Alt + Down   Stack scroller down
 
 🏷️ WORKSPACE (TAG) SWITCHING
-  Ctrl + 1 through 9   Switch to tag 1 through 9
+  SUPER + Ctrl + 1-9     Switch to tag 1 through 9
+  SUPER + Ctrl + Left    View previous tag
+  SUPER + Ctrl + Right   View next tag
 
 📦 MOVE WINDOW TO TAG
-  Alt + 1 through 9    Move client to tag 1-9 and switch to it
-
-⬅️➡️ TAG NAVIGATION
-  Alt + Left           View previous tag
-  Ctrl + Left          View previous tag (with client)
-  Alt + Right          View next tag
-  Ctrl + Right         View next tag (with client)
-
-🔄 MOVE TAG BETWEEN MONITORS
-  Ctrl + SUPER + Left  Move tag to left monitor
-  Ctrl + SUPER + Right Move tag to right monitor
+  Alt + 1-9              Move client to tag 1-9 and switch to it
+  SUPER + Ctrl + Shift + Left   Move client to previous tag
+  SUPER + Ctrl + Shift + Right  Move client to next tag
 
 🖥️ MULTI-MONITOR
-  Alt + Shift + Left   Focus left monitor
-  Alt + Shift + Right  Focus right monitor
-  SUPER + Alt + Left   Send tag to left monitor
-  SUPER + Alt + Right  Send tag to right monitor
+  Alt + Shift + Left     Focus left monitor
+  Alt + Shift + Right    Focus right monitor
+  SUPER + Alt + Left     Send window to left monitor
+  SUPER + Alt + Right    Send window to right monitor
+
+↕️ MOVE FLOATING WINDOW
+  Ctrl + Shift + Up      Move floating window -50px up
+  Ctrl + Shift + Down    Move floating window +50px down
+  Ctrl + Shift + Left    Move floating window -50px left
+  Ctrl + Shift + Right   Move floating window +50px right
+
+📐 RESIZE FLOATING WINDOW
+  Ctrl + Alt + Up        Decrease height by 50px
+  Ctrl + Alt + Down      Increase height by 50px
+  Ctrl + Alt + Left      Decrease width by 50px
+  Ctrl + Alt + Right     Increase width by 50px
 
 📏 GAPS
-  Alt + Shift + X      Increase gaps by 1px
-  Alt + Shift + Z      Decrease gaps by 1px
-  Alt + Shift + R      Toggle gaps
+  Alt + Shift + X        Increase gaps by 1px
+  Alt + Shift + Z        Decrease gaps by 1px
+  Alt + Shift + R        Toggle gaps
 
 🖱️ MOUSE BINDINGS
-  SUPER + Left Click   Move window
-  Any + Middle Click   Toggle maximize screen
-  SUPER + Right Click  Resize window
+  SUPER + Left Click     Move window
+  Middle Click           Toggle maximize screen
+  SUPER + Right Click    Resize window
 
 📜 SCROLL (AXIS) BINDINGS
-  SUPER + Scroll Up    View previous tag (with client)
-  SUPER + Scroll Down  View next tag (with client)
+  SUPER + Scroll Up      View previous tag (with client)
+  SUPER + Scroll Down    View next tag (with client)
 
-🎬 ANIMATIONS
-  Rofi                 Zoom animation on open/close
+🔊 AUDIO
+  XF86AudioRaiseVolume   Volume up 5%
+  XF86AudioLowerVolume   Volume down 5%
+  XF86AudioMute          Toggle mute (speaker)
+  Shift + XF86AudioMute  Toggle mute (microphone)
+
+🔆 BRIGHTNESS
+  XF86MonBrightnessUp          Brightness up 2%
+  Shift + XF86MonBrightnessUp  Brightness to 100%
+  XF86MonBrightnessDown        Brightness down 2%
+  Shift + XF86MonBrightnessDown Brightness to 1%
+
+⏯️ MEDIA PLAYER
+  XF86AudioNext          Next track
+  XF86AudioPrev          Previous track
+  XF86AudioPlay          Play / Pause
