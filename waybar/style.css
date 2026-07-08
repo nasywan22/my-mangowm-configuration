@@ -3,6 +3,10 @@
     font-size: 14px;
 }
 
+window#waybar {
+    border-bottom: 4px solid #FFFFDD;
+}
+
 window#waybar > box {
     padding: 0 24px;
 }
@@ -25,9 +29,13 @@ window#waybar > box {
 }
 
 #wireplumber {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 #backlight {
     font-size: 24px;
+}
+
+#bluetooth {
+    font-size: 18px;
 }

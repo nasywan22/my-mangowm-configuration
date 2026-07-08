@@ -1,0 +1,8 @@
+{
+    "bluetooth": {
+        "format-on"         :   "󰂯",
+        "format-connected"  :   "󰂱",
+        "format-off"        :   "󰂲",
+        "format-disable"    :   "󰂲",
+    }
+}
