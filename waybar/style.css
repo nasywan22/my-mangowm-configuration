@@ -43,3 +43,7 @@ window#waybar > box {
 #network {
     font-size: 24px;
 }
+
+#custom-nc {
+    font-size: 20px;
+}
