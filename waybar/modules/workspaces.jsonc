@@ -1,12 +1,13 @@
 {
-    "ext/workspaces": {
-    "format": "{icon}",
-    "ignore-hidden": true,
-    "on-click": "activate",
-    "on-click-right": "deactivate",
-    "sort-by-id": true,
-    "disable-scroll": true,
-    "all-outputs": false,
-    "current-only": true
+  "ext/workspaces": {
+    "format"          : "{icon}",
+    "ignore-hidden"   : true,
+    "on-click"        : "activate",
+    "on-click-right"  : "deactivate",
+    "sort-by-id"      : true,
+    "disable-scroll"  : true,
+    "all-outputs"     : false,
+    "current-only"    : true,
+    "on-update"       : "pkill -SIGRTMIN+8 waybar"
   }
 }

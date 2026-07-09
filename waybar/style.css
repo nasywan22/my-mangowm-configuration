@@ -39,3 +39,7 @@ window#waybar > box {
 #bluetooth {
     font-size: 18px;
 }
+
+#network {
+    font-size: 24px;
+}

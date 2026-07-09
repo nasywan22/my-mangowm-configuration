@@ -1,0 +1,9 @@
+{
+    "network": {
+        "format-ethernet"       :   "󰈁",
+        "format-wifi"           :   "{icon}",
+        "format-disconnected"   :   "󰤮",
+        "format-icons"          :   ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "on-click"              :   "kitty nmtui"
+    }
+}

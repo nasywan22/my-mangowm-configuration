@@ -18,7 +18,8 @@
         "/home/gallahard/.config/waybar/modules/wireplumber.jsonc",
         "/home/gallahard/.config/waybar/modules/backlight.jsonc",
         "/home/gallahard/.config/waybar/modules/layouts.jsonc",
-        "/home/gallahard/.config/waybar/modules/bluetooth.jsonc"
+        "/home/gallahard/.config/waybar/modules/bluetooth.jsonc",
+        "/home/gallahard/.config/waybar/modules/network.jsonc"
     ],
     
     // MODULES LAYOUT
