@@ -4,5 +4,7 @@
         "format-connected"  :   "󰂱",
         "format-off"        :   "󰂲",
         "format-disable"    :   "󰂲",
+        "on-click-right"    :   "/home/gallahard/.config/waybar/scripts/bluetooth_toggle.sh",
+        "on-click"          :   "kitty bluetui"
     }
 }
