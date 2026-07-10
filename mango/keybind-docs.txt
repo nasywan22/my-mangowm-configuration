@@ -10,16 +10,16 @@
   SUPER + Q              Kill focused client
 
 🎯 WINDOW FOCUS
-  SUPER + Left           Focus window to the left
-  SUPER + Right          Focus window to the right
-  SUPER + Up             Focus window above
-  SUPER + Down           Focus window below
+  SUPER + Left/H         Focus window to the left
+  SUPER + Right/L        Focus window to the right
+  SUPER + Up/K           Focus window above
+  SUPER + Down/J         Focus window below
 
 🔄 WINDOW SWAPPING
-  SUPER + Shift + Left   Swap with window on the left
-  SUPER + Shift + Right  Swap with window on the right
-  SUPER + Shift + Up     Swap with window above
-  SUPER + Shift + Down   Swap with window below
+  SUPER + Shift + Left/H   Swap with window on the left
+  SUPER + Shift + Right/L  Swap with window on the right
+  SUPER + Shift + Up/K     Swap with window above
+  SUPER + Shift + Down/J   Swap with window below
 
 📏 WINDOW STATES
   SUPER + G              Toggle global mode
@@ -43,13 +43,13 @@
 
 🏷️ WORKSPACE (TAG) SWITCHING
   SUPER + Ctrl + 1-9     Switch to tag 1 through 9
-  SUPER + Ctrl + Left    View previous tag
-  SUPER + Ctrl + Right   View next tag
+  SUPER + Ctrl + Left/H  View previous tag
+  SUPER + Ctrl + Right/L View next tag
 
 📦 MOVE WINDOW TO TAG
-  Alt + 1-9              Move client to tag 1-9 and switch to it
-  SUPER + Ctrl + Shift + Left   Move client to previous tag
-  SUPER + Ctrl + Shift + Right  Move client to next tag
+  SUPER + Alt + Shift + 1-9       Move client to tag 1-9 and switch to it
+  SUPER + Ctrl + Shift + Left/H   Move client to previous tag
+  SUPER + Ctrl + Shift + Right/L  Move client to next tag
 
 🖥️ MULTI-MONITOR
   Alt + Shift + Left     Focus left monitor
@@ -58,16 +58,16 @@
   SUPER + Alt + Right    Send window to right monitor
 
 ↕️ MOVE FLOATING WINDOW
-  Ctrl + Shift + Up      Move floating window -50px up
-  Ctrl + Shift + Down    Move floating window +50px down
-  Ctrl + Shift + Left    Move floating window -50px left
-  Ctrl + Shift + Right   Move floating window +50px right
+  SUPER + Ctrl + Shift + Up/K     Move floating window -50px up
+  SUPER + Ctrl + Shift + Down/J   Move floating window +50px down
+  SUPER + Ctrl + Shift + Left/H   Move floating window -50px left
+  SUPER + Ctrl + Shift + Right/L  Move floating window +50px right
 
 📐 RESIZE FLOATING WINDOW
-  Ctrl + Alt + Up        Decrease height by 50px
-  Ctrl + Alt + Down      Increase height by 50px
-  Ctrl + Alt + Left      Decrease width by 50px
-  Ctrl + Alt + Right     Increase width by 50px
+  SUPER + Ctrl + Alt + Up/K       Decrease height by 50px
+  SUPER + Ctrl + Alt + Down/J     Increase height by 50px
+  SUPER + Ctrl + Alt + Left/H     Decrease width by 50px
+  SUPER + Ctrl + Alt + Right/L    Increase width by 50px
 
 📏 GAPS
   Alt + Shift + X        Increase gaps by 1px
