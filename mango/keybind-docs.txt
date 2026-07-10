@@ -4,22 +4,24 @@
   SUPER + R              Reload MangoWM configuration
   SUPER + Space          Open application launcher (rofi)
   SUPER + T              Launch terminal (kitty)
+  SUPER + Shift + L      Lock screen & Suspend (veila lock)
+  SUPER + V              Launch clipboard manager (clipse in kitty) & toggle floating
 
 ❌ EXIT / CLOSE
   SUPER + Alt + Delete   Quit MangoWM
   SUPER + Q              Kill focused client
 
 🎯 WINDOW FOCUS
-  SUPER + Left/H         Focus window to the left
-  SUPER + Right/L        Focus window to the right
-  SUPER + Up/K           Focus window above
-  SUPER + Down/J         Focus window below
+  SUPER + Left / h       Focus window to the left
+  SUPER + Right / l      Focus window to the right
+  SUPER + Up / k         Focus window above
+  SUPER + Down / j       Focus window below
 
 🔄 WINDOW SWAPPING
-  SUPER + Shift + Left/H   Swap with window on the left
-  SUPER + Shift + Right/L  Swap with window on the right
-  SUPER + Shift + Up/K     Swap with window above
-  SUPER + Shift + Down/J   Swap with window below
+  SUPER + Shift + Left / h   Swap with window on the left
+  SUPER + Shift + Right / l  Swap with window on the right
+  SUPER + Shift + Up / k     Swap with window above
+  SUPER + Shift + Down / j   Swap with window below
 
 📏 WINDOW STATES
   SUPER + G              Toggle global mode
@@ -42,14 +44,14 @@
   SUPER + Ctrl + Alt + Down   Stack scroller down
 
 🏷️ WORKSPACE (TAG) SWITCHING
-  SUPER + Ctrl + 1-9     Switch to tag 1 through 9
-  SUPER + Ctrl + Left/H  View previous tag
-  SUPER + Ctrl + Right/L View next tag
+  SUPER + Alt + 1-9      Switch to tag 1 through 9
+  SUPER + Alt + Left / h View previous tag
+  SUPER + Alt + Right / l View next tag
 
 📦 MOVE WINDOW TO TAG
-  SUPER + Alt + Shift + 1-9       Move client to tag 1-9 and switch to it
-  SUPER + Ctrl + Shift + Left/H   Move client to previous tag
-  SUPER + Ctrl + Shift + Right/L  Move client to next tag
+  SUPER + Alt + Shift + 1-9     Move client to tag 1-9
+  SUPER + Alt + Shift + Left / h Move client to previous tag
+  SUPER + Alt + Shift + Right / l Move client to next tag
 
 🖥️ MULTI-MONITOR
   Alt + Shift + Left     Focus left monitor
@@ -58,16 +60,16 @@
   SUPER + Alt + Right    Send window to right monitor
 
 ↕️ MOVE FLOATING WINDOW
-  SUPER + Ctrl + Shift + Up/K     Move floating window -50px up
-  SUPER + Ctrl + Shift + Down/J   Move floating window +50px down
-  SUPER + Ctrl + Shift + Left/H   Move floating window -50px left
-  SUPER + Ctrl + Shift + Right/L  Move floating window +50px right
+  SUPER + Ctrl + Shift + Up / k    Move floating window -10px up
+  SUPER + Ctrl + Shift + Down / j  Move floating window +10px down
+  SUPER + Ctrl + Shift + Left / h  Move floating window -10px left
+  SUPER + Ctrl + Shift + Right / l Move floating window +10px right
 
 📐 RESIZE FLOATING WINDOW
-  SUPER + Ctrl + Alt + Up/K       Decrease height by 50px
-  SUPER + Ctrl + Alt + Down/J     Increase height by 50px
-  SUPER + Ctrl + Alt + Left/H     Decrease width by 50px
-  SUPER + Ctrl + Alt + Right/L    Increase width by 50px
+  SUPER + Ctrl + Alt + Up / k      Decrease height by 10px
+  SUPER + Ctrl + Alt + Down / j    Increase height by 10px
+  SUPER + Ctrl + Alt + Left / h    Decrease width by 10px
+  SUPER + Ctrl + Alt + Right / l   Increase width by 10px
 
 📏 GAPS
   Alt + Shift + X        Increase gaps by 1px

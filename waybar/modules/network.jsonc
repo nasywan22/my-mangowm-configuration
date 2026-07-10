@@ -4,6 +4,6 @@
         "format-wifi"           :   "{icon}",
         "format-disconnected"   :   "󰤮",
         "format-icons"          :   ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-        "on-click"              :   "kitty nmtui"
+        "on-click"              :   "kitty nmtui & sleep 0.5 && /home/gallahard/.config/waybar/scripts/float_mode.sh"
     }
 }
