@@ -5,6 +5,6 @@
         "format-off"        :   "󰂲",
         "format-disable"    :   "󰂲",
         "on-click-right"    :   "/home/gallahard/.config/waybar/scripts/bluetooth_toggle.sh",
-        "on-click"          :   "kitty bluetui & sleep 0.5 && /home/gallahard/.config/waybar/scripts/float_mode.sh"
+        "on-click"          :   "kitty --class bluetui -e 'bluetui'" 
     }
 }

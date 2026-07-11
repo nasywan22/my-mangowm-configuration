@@ -5,7 +5,8 @@
   SUPER + Space          Open application launcher (rofi)
   SUPER + T              Launch terminal (kitty)
   SUPER + Shift + L      Lock screen & Suspend (veila lock)
-  SUPER + V              Launch clipboard manager (clipse in kitty) & toggle floating
+  SUPER + V              Launch clipboard manager (clipse in kitty)
+  SUPER + W              Show wallpaper selector (skwd)
 
 ❌ EXIT / CLOSE
   SUPER + Alt + Delete   Quit MangoWM
