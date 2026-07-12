@@ -1,0 +1,106 @@
+🎯 GENERAL & UTILITIES
+  SUPER + Code:61        Search shortcuts (rofi fuzzy search)
+  SUPER + Ctrl + R       Reload Waybar
+  SUPER + R              Reload MangoWM configuration
+  SUPER + Space          Open application launcher (rofi)
+  SUPER + T              Launch terminal (kitty)
+  SUPER + Shift + L      Lock screen & Suspend (veila lock)
+  SUPER + V              Launch clipboard manager (clipse in kitty)
+  SUPER + W              Show wallpaper selector (skwd)
+  SUPER + Ctrl + L       Launch layout switcher
+  Print                  Take screenshot (ss_launcher)
+
+❌ EXIT / CLOSE
+  SUPER + Alt + Delete   Quit MangoWM
+  SUPER + Q              Kill focused client
+
+🎯 WINDOW FOCUS
+  SUPER + Left / h       Focus window to the left
+  SUPER + Right / l      Focus window to the right
+  SUPER + Up / k         Focus window above
+  SUPER + Down / j       Focus window below
+
+🔄 WINDOW SWAPPING
+  SUPER + Shift + Left / h   Swap with window on the left
+  SUPER + Shift + Right / l  Swap with window on the right
+  SUPER + Shift + Up / k     Swap with window above
+  SUPER + Shift + Down / j   Swap with window below
+
+📏 WINDOW STATES
+  SUPER + G              Toggle global mode
+  SUPER + Tab            Toggle overview mode
+  SUPER + Alt + F        Toggle floating mode
+  SUPER + M              Toggle maximize screen
+  SUPER + F              Toggle fullscreen
+  SUPER + Shift + F      Toggle fake fullscreen
+  SUPER + Shift + M      Minimize window
+  SUPER + Alt + I        Restore minimized windows
+  SUPER + O              Toggle overlay mode
+  SUPER + S              Toggle scratchpad
+
+📐 LAYOUT MANAGEMENT
+  SUPER + D              Toggle split direction (dwindle layout)
+  SUPER + N              Switch layout & refresh Waybar
+  SUPER + Ctrl + Alt + Left   Stack scroller left
+  SUPER + Ctrl + Alt + Right  Stack scroller right
+  SUPER + Ctrl + Alt + Up     Stack scroller up
+  SUPER + Ctrl + Alt + Down   Stack scroller down
+
+🏷️ WORKSPACE (TAG) SWITCHING
+  SUPER + Alt + 1-9      Switch to tag 1 through 9
+  SUPER + Alt + Left / h View previous tag
+  SUPER + Alt + Right / l View next tag
+
+📦 MOVE WINDOW TO TAG
+  SUPER + Alt + Shift + 1-9     Move client to tag 1-9
+  SUPER + Alt + Shift + Left / h Move client to previous tag
+  SUPER + Alt + Shift + Right / l Move client to next tag
+
+🖥️ MULTI-MONITOR
+  Alt + Shift + Left     Focus left monitor
+  Alt + Shift + Right    Focus right monitor
+  SUPER + Alt + Left     Send window to left monitor
+  SUPER + Alt + Right    Send window to right monitor
+
+↕️ MOVE FLOATING WINDOW
+  SUPER + Ctrl + Shift + Up / k    Move floating window -10px up
+  SUPER + Ctrl + Shift + Down / j  Move floating window +10px down
+  SUPER + Ctrl + Shift + Left / h  Move floating window -10px left
+  SUPER + Ctrl + Shift + Right / l Move floating window +10px right
+
+📐 RESIZE FLOATING WINDOW
+  SUPER + Ctrl + Alt + Up / k      Decrease height by 10px
+  SUPER + Ctrl + Alt + Down / j    Increase height by 10px
+  SUPER + Ctrl + Alt + Left / h    Decrease width by 10px
+  SUPER + Ctrl + Alt + Right / l   Increase width by 10px
+
+📏 GAPS
+  Alt + Shift + X        Increase gaps by 1px
+  Alt + Shift + Z        Decrease gaps by 1px
+  Alt + Shift + R        Toggle gaps
+
+🖱️ MOUSE BINDINGS
+  SUPER + Left Click     Move window
+  Middle Click           Toggle maximize screen
+  SUPER + Right Click    Resize window
+
+📜 SCROLL (AXIS) BINDINGS
+  SUPER + Scroll Up      View previous tag (with client)
+  SUPER + Scroll Down    View next tag (with client)
+
+🔊 AUDIO
+  XF86AudioRaiseVolume   Volume up 5%
+  XF86AudioLowerVolume   Volume down 5%
+  XF86AudioMute          Toggle mute (speaker)
+  Shift + XF86AudioMute  Toggle mute (microphone)
+
+🔆 BRIGHTNESS
+  XF86MonBrightnessUp          Brightness up 2%
+  Shift + XF86MonBrightnessUp  Brightness to 100%
+  XF86MonBrightnessDown        Brightness down 2%
+  Shift + XF86MonBrightnessDown Brightness to 1%
+
+⏯️ MEDIA PLAYER
+  XF86AudioNext          Next track
+  XF86AudioPrev          Previous track
+  XF86AudioPlay          Play / Pause
