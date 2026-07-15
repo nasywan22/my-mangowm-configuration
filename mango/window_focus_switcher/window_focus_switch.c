@@ -20,10 +20,11 @@ int main ()
 {
     char *cmd = (char[100]) { "/home/gallahard/.config/mango/window_focus_switcher/get_all_windows | rofi -dmenu -p 'find window'" };
     FILE *cmd_o = run_cmd(cmd);
-    char window_id = fgetc(cmd_o);
+    char window_id[10];
+    fscanf(cmd_o, "%5s", window_id);
 
     strncpy(cmd, "mmsg dispatch focusid client,", 31);
-    strncat(cmd, &window_id, 1);
+    strncat(cmd, window_id, 5);
 
     pclose(cmd_o);
     cmd_o = run_cmd(cmd);
