@@ -1,5 +1,6 @@
 {
     "backlight": {
-        "format": "󰃟"
+        "format": "󰃟",
+        "tooltip-format": "{percent}"
     }
 }

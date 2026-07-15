@@ -3,6 +3,7 @@
         "format": "{icon}",
         "format-muted": "󰝟",
         "format-icons": ["", ""],
+        "tooltip-format": "{volume}",
         "on-click-right": "pavucontrol",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
         "scroll-step": 5
