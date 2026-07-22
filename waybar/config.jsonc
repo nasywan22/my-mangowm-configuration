@@ -20,7 +20,8 @@
         "/home/gallahard/.config/waybar/modules/layouts.jsonc",
         "/home/gallahard/.config/waybar/modules/bluetooth.jsonc",
         "/home/gallahard/.config/waybar/modules/network.jsonc",
-        "/home/gallahard/.config/waybar/modules/nc.jsonc"
+        "/home/gallahard/.config/waybar/modules/nc.jsonc",
+        "/home/gallahard/.config/waybar/modules/keymodes.jsonc"
     ],
     
     // MODULES LAYOUT
@@ -28,5 +29,5 @@
 
     "modules-center": ["ext/workspaces"],
 
-    "modules-right": ["tray", "wireplumber#output", "backlight", "bluetooth", "network", "custom/nc", "custom/sessionmenu", "custom/layout"]
+    "modules-right": ["tray", "wireplumber#output", "backlight", "bluetooth", "network", "custom/nc", "custom/layout", "custom/keymodes"]
 }

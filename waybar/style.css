@@ -18,6 +18,12 @@ window#waybar > box {
 
 #custom-layout {
     font-weight: bold;
+    color: #FFFFDD;
+}
+
+#custom-keymodes {
+    font-weight: bold;
+    color: #8ec07c;
 }
 
 #workspaces button {

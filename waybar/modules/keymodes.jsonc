@@ -1,0 +1,6 @@
+{
+    "custom/keymodes": {
+        "exec": "mmsg get keymode | jq -Cer '.keymode'",
+        "interval": 0.7
+    }
+}
