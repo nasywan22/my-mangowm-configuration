@@ -19,8 +19,7 @@ case $CHOOSED_OPTION in
   "save"  )   notify-send "file saved at $FILE_NAME_PATH";;
 
   "copy")
-    wl-copy <"$FILE_NAME_PATH"
-    sleep 2.5s
+    wl-copy < "$FILE_NAME_PATH"
     rm -f "$FILE_NAME_PATH"
     notify-send "file copied"
     ;;

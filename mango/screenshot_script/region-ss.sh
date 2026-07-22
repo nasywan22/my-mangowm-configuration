@@ -7,5 +7,5 @@ if [ -z $DIMENSION ]; then
     exit 1
 fi
 
-grim -g "$DIMENSION" -t jpeg -q 100 $FILE_NAME_PATH
+grim -g "$DIMENSION" $FILE_NAME_PATH
 notify-send "Screenshot captured"
