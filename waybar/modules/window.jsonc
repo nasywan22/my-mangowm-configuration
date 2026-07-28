@@ -1,9 +1,6 @@
 {
-    "dwl/window": {
-        "format": "{title}",
-        "icon": true,
-        "justify": "center",
-        "icon-size": 20,
-        "max-length": 10
-    }
+  "mango/window": {
+        "format": "{}",
+	    "icon-size": 20
+  }
 }

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/reboot.h>
+#include <systemd/sd-bus-protocol.h>
+#include <systemd/sd-bus.h>
 #include "get_sudo_access.h"
 #include "suspend_system.h"
 
@@ -16,34 +18,85 @@ FILE* run_cmd(const char *cmd)
     return output;
 }
 
-void shutdown_system()
-{
-    const int result = reboot(RB_POWER_OFF);
-    if (result == -1) 
-    {
-        perror("failed to shutdown");
+void shutdown_system() {
+    sd_bus *bus = NULL;
+    sd_bus_error error = SD_BUS_ERROR_NULL;
+
+    if (sd_bus_open_system(&bus) < 0) {
+        fprintf(stderr, "Failed to connect to system bus\n");
         exit(EXIT_FAILURE);
     }
+
+    if (sd_bus_call_method(bus,
+                           "org.freedesktop.login1",
+                           "/org/freedesktop/login1",
+                           "org.freedesktop.login1.Manager",
+                           "PowerOff",        // metode untuk shutdown
+                           &error,
+                           NULL,
+                           "b",               // argumen: interactive (boolean)
+                           1) < 0) {
+        fprintf(stderr, "Failed to shutdown: %s\n", error.message);
+        sd_bus_error_free(&error);
+        sd_bus_unref(bus);
+        exit(EXIT_FAILURE);
+    }
+
+    sd_bus_unref(bus);
 }
 
-void reboot_system()
-{
-    const int result = reboot(RB_AUTOBOOT);
-    if (result == -1) 
-    {
-        perror("failed to reboot");
+void reboot_system() {
+    sd_bus *bus = NULL;
+    sd_bus_error error = SD_BUS_ERROR_NULL;
+
+    if (sd_bus_open_system(&bus) < 0) {
+        fprintf(stderr, "Failed to connect to system bus\n");
         exit(EXIT_FAILURE);
     }
+
+    if (sd_bus_call_method(bus,
+                           "org.freedesktop.login1",
+                           "/org/freedesktop/login1",
+                           "org.freedesktop.login1.Manager",
+                           "Reboot",          // metode untuk reboot
+                           &error,
+                           NULL,
+                           "b",
+                           1) < 0) {
+        fprintf(stderr, "Failed to reboot: %s\n", error.message);
+        sd_bus_error_free(&error);
+        sd_bus_unref(bus);
+        exit(EXIT_FAILURE);
+    }
+
+    sd_bus_unref(bus);
 }
 
-void hibernate_system()
-{
-    const int result = reboot(RB_SW_SUSPEND);
-    if (result == -1) 
-    {
-        perror("failed to hibernate");
+void hibernate_system() {
+    sd_bus *bus = NULL;
+    sd_bus_error error = SD_BUS_ERROR_NULL;
+
+    if (sd_bus_open_system(&bus) < 0) {
+        fprintf(stderr, "Failed to connect to system bus\n");
         exit(EXIT_FAILURE);
     }
+
+    if (sd_bus_call_method(bus,
+                           "org.freedesktop.login1",
+                           "/org/freedesktop/login1",
+                           "org.freedesktop.login1.Manager",
+                           "Hibernate",       // metode untuk hibernate
+                           &error,
+                           NULL,
+                           "b",
+                           1) < 0) {
+        fprintf(stderr, "Failed to hibernate: %s\n", error.message);
+        sd_bus_error_free(&error);
+        sd_bus_unref(bus);
+        exit(EXIT_FAILURE);
+    }
+
+    sd_bus_unref(bus);
 }
 
 void log_out()

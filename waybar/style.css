@@ -1,8 +1,10 @@
+/* ===== GLOBAL RESET & BASE ===== */
 * {
     font-family: 'Noto Sans', "FiraCode Nerd Font Mono", sans-serif;
     font-size: 14px;
 }
 
+/* ===== MAIN WAYBAR WINDOW ===== */
 window#waybar {
     border-bottom: 4px solid #FFFFDD;
 }
@@ -11,6 +13,7 @@ window#waybar > box {
     padding: 0 24px;
 }
 
+/* ===== CUSTOM MODULES – ICONS & LAYOUT ===== */
 #custom-musicIcon {
     font-size: 24px;
     margin-right: 10px;
@@ -21,19 +24,29 @@ window#waybar > box {
     color: #FFFFDD;
 }
 
-#custom-keymodes {
-    font-weight: bold;
-    color: #8ec07c;
-}
-
+/* ===== WORKSPACES ===== */
 #workspaces button {
-    color: #A3A3A3;
+    color: #797777;
 }
 
 #workspaces button.active {
     color: #FFFFDD;
 }
 
+/* ===== ACTIVE WINDOW TITLE ===== */
+#window {
+    background-color: #CA9297;
+    color: #282828;
+}
+
+/* Hide window background when no windows are open */
+window#waybar.empty #window {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ===== SYSTEM / HARDWARE MODULES ===== */
 #wireplumber {
     font-size: 28px;
 }
@@ -50,6 +63,7 @@ window#waybar > box {
     font-size: 24px;
 }
 
+/* ===== OTHER CUSTOM MODULES ===== */
 #custom-nc {
     font-size: 20px;
 }
