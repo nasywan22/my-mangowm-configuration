@@ -1,14 +1,18 @@
 🎯 GENERAL & UTILITIES
-  SUPER + Code:61        Search shortcuts (rofi fuzzy search)
+  SUPER + /              Search shortcuts (rofi fuzzy search)
   SUPER + Ctrl + R       Reload Waybar
   SUPER + R              Reload MangoWM configuration
   SUPER + Space          Open application launcher (rofi)
   SUPER + T              Launch terminal (kitty)
-  SUPER + Shift + L      Lock screen & Suspend (veila lock)
+  SUPER + Ctrl + S       Lock screen & Suspend (veila lock)
   SUPER + V              Launch clipboard manager (clipse in kitty)
-  SUPER + W              Show wallpaper selector (skwd)
+  SUPER + Ctrl + W       Show wallpaper selector (skwd)
+  SUPER + W              Open window focus switcher
   SUPER + Ctrl + L       Launch layout switcher
+  SUPER + Ctrl + M       Toggle mouse control mode (keyboard as mouse)
   Print                  Take screenshot (ss_launcher)
+  Ctrl + Alt + Delete    Open session menu (logout, reboot, shutdown)
+  SUPER + .              Open emoji picker (wofi-emoji)
 
 ❌ EXIT / CLOSE
   SUPER + Alt + Delete   Quit MangoWM
@@ -81,8 +85,29 @@
 
 🖱️ MOUSE BINDINGS
   SUPER + Left Click     Move window
-  Middle Click           Toggle maximize screen
   SUPER + Right Click    Resize window
+  (Middle click is not configured)
+
+🖱️ MOUSE MODE (keyboard‑controlled mouse)
+  Activate with: SUPER + Ctrl + M
+  SUPER + Escape         Return to default mode
+
+  Navigate pointer (10px per step):
+  h / j / k / l          Move left / down / up / right
+
+  Scroll:
+  u                      Scroll horizontally left (dx=-10)
+  d                      Scroll horizontally right (dx=10)
+  Shift + h              Scroll vertically up (dy=-10)
+  Shift + l              Scroll vertically down (dy=10)
+
+  Clicks:
+  Space                  Left click
+  Shift + Space          Right click
+  Alt + Space            Middle click
+
+  Other:
+  f                      Jump pointer to a defined position (jmp-ptr-pos.sh)
 
 📜 SCROLL (AXIS) BINDINGS
   SUPER + Scroll Up      View previous tag (with client)
