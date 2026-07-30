@@ -99,6 +99,12 @@ void hibernate_system() {
     sd_bus_unref(bus);
 }
 
+void suspend_and_lock()
+{
+  run_cmd("veila lock");
+suspend_system();
+}
+
 void log_out()
 {
     FILE *output = popen("mmsg dispatch quit", "r");
@@ -128,7 +134,7 @@ int main()
         case '1': shutdown_system()     ;   break;
         case '2': reboot_system()       ;   break;
         case '3': hibernate_system()    ;   break;
-        case '4': suspend_system()      ;   break;
+        case '4': suspend_and_lock()    ;   break;
         case '5': log_out()             ;   break;
     }
 
